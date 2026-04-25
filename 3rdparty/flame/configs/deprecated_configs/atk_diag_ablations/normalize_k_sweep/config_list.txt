@@ -1,0 +1,8 @@
+normktrue_lambda1e-4
+normktrue_lambda1e-3
+normktrue_lambda1e-2
+normktrue_lambda1e-1
+normkfalse_lambda1e-4
+normkfalse_lambda1e-3
+normkfalse_lambda1e-2
+normkfalse_lambda1e-1

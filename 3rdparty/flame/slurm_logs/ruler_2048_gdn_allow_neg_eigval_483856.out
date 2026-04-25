@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/x_sweep/gdn_allow_neg_eigval...
+
+============================================================
+Evaluating at sequence length: 2048
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 100.0% (50/50)
+
+  Needle depth: 25%
+    Accuracy: 100.0% (50/50)
+
+  Needle depth: 50%
+    Accuracy: 100.0% (50/50)
+
+  Needle depth: 75%
+    Accuracy: 100.0% (50/50)
+
+  Needle depth: 100%
+    Accuracy: 100.0% (50/50)
+
+  Overall accuracy at 2048: 100.0%
+
+================================================================================
+RULER Evaluation Results: passkey
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/x_sweep/gdn_allow_neg_eigval
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      2048 |   100.0%  |   100.0%  |   100.0%  |   100.0%  |   100.0%  | 100.0%
+--------------------------------------------------------------------------------
+Overall Accuracy: 100.0%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/gdn_allow_neg_eigval/ruler/ruler_passkey_gdn_allow_neg_eigval_2026-01-25_02-03-26.json
+RULER Evaluation completed: seq_len=2048 on gdn_allow_neg_eigval

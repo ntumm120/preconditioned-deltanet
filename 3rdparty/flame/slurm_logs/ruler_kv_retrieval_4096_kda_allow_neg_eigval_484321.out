@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/x_sweep/kda_allow_neg_eigval...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 42.0% (21/50)
+
+  Needle depth: 25%
+    Accuracy: 30.0% (15/50)
+
+  Needle depth: 50%
+    Accuracy: 42.0% (21/50)
+
+  Needle depth: 75%
+    Accuracy: 22.0% (11/50)
+
+  Needle depth: 100%
+    Accuracy: 96.0% (48/50)
+
+  Overall accuracy at 4096: 46.4%
+
+================================================================================
+RULER Evaluation Results: kv_retrieval
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/x_sweep/kda_allow_neg_eigval
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    42.0%  |    30.0%  |    42.0%  |    22.0%  |    96.0%  | 46.4%
+--------------------------------------------------------------------------------
+Overall Accuracy: 46.4%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/kda_allow_neg_eigval/ruler/ruler_kv_retrieval_kda_allow_neg_eigval_2026-01-25_02-31-49.json
+RULER kv_retrieval evaluation completed: seq_len=4096 on kda_allow_neg_eigval

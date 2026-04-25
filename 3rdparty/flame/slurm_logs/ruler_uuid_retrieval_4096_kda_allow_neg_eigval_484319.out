@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/x_sweep/kda_allow_neg_eigval...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 62.0% (31/50)
+
+  Needle depth: 25%
+    Accuracy: 68.0% (34/50)
+
+  Needle depth: 50%
+    Accuracy: 78.0% (39/50)
+
+  Needle depth: 75%
+    Accuracy: 92.0% (46/50)
+
+  Needle depth: 100%
+    Accuracy: 92.0% (46/50)
+
+  Overall accuracy at 4096: 78.4%
+
+================================================================================
+RULER Evaluation Results: uuid_retrieval
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/x_sweep/kda_allow_neg_eigval
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    62.0%  |    68.0%  |    78.0%  |    92.0%  |    92.0%  | 78.4%
+--------------------------------------------------------------------------------
+Overall Accuracy: 78.4%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/kda_allow_neg_eigval/ruler/ruler_uuid_retrieval_kda_allow_neg_eigval_2026-01-25_02-31-49.json
+RULER uuid_retrieval evaluation completed: seq_len=4096 on kda_allow_neg_eigval

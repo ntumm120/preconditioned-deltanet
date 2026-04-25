@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_baselines/gated_deltanet_seq2048_lr4e4...
+
+============================================================
+Evaluating at sequence length: 1024
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 48.0% (24/50)
+
+  Needle depth: 25%
+    Accuracy: 76.0% (38/50)
+
+  Needle depth: 50%
+    Accuracy: 74.0% (37/50)
+
+  Needle depth: 75%
+    Accuracy: 62.0% (31/50)
+
+  Needle depth: 100%
+    Accuracy: 48.0% (24/50)
+
+  Overall accuracy at 1024: 61.6%
+
+================================================================================
+RULER Evaluation Results: uuid_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_baselines/gated_deltanet_seq2048_lr4e4
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      1024 |    48.0%  |    76.0%  |    74.0%  |    62.0%  |    48.0%  | 61.6%
+--------------------------------------------------------------------------------
+Overall Accuracy: 61.6%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/gated_deltanet_seq2048_lr4e4/ruler/ruler_uuid_retrieval_gated_deltanet_seq2048_lr4e4_2026-01-25_02-27-14.json
+RULER uuid_retrieval evaluation completed: seq_len=1024 on gated_deltanet_seq2048_lr4e4

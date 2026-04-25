@@ -1,0 +1,28 @@
+Loading model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/kda_1B_50B
+Tasks: ['wikitext', 'lambada_openai', 'arc_easy', 'arc_challenge', 'hellaswag', 'piqa', 'winogrande', 'fda', 'swde', 'squad_completion']
+bootstrapping for stddev: perplexity
+Full results saved to: /home/neehal/preconditioned_linear_attention/evals/results/kda_1B_50B/results_all.json
+
+============================================================
+Results Summary: kda_1B_50B
+============================================================
+
+Table 6 (Language Modeling):
+----------------------------------------
+  wikitext_ppl   : 17.96
+  lambada_ppl    : 14.53
+  lambada_acc    : 0.4458
+  arc_e          : 0.5471
+  arc_c          : 0.2705
+  hellaswag      : 0.4890
+  piqa           : 0.6970
+  winogrande     : 0.5320
+
+Table 7 (Retrieval/QA):
+----------------------------------------
+  fda            : N/A
+  swde           : N/A
+  squad          : N/A
+============================================================
+
+LM Evaluation completed: all benchmarks on kda_1B_50B (batch_size=4)

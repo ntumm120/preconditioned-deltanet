@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/precond_deltanet_x_sweep/fast_x1p75...
+
+============================================================
+Evaluating at sequence length: 2048
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 0.0% (0/50)
+
+  Needle depth: 25%
+    Accuracy: 0.0% (0/50)
+
+  Needle depth: 50%
+    Accuracy: 0.0% (0/50)
+
+  Needle depth: 75%
+    Accuracy: 0.0% (0/50)
+
+  Needle depth: 100%
+    Accuracy: 0.0% (0/50)
+
+  Overall accuracy at 2048: 0.0%
+
+================================================================================
+RULER Evaluation Results: passkey
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/precond_deltanet_x_sweep/fast_x1p75
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      2048 |     0.0%  |     0.0%  |     0.0%  |     0.0%  |     0.0%  | 0.0%
+--------------------------------------------------------------------------------
+Overall Accuracy: 0.0%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/precond_deltanet_x1p75/ruler/ruler_passkey_fast_x1p75_2026-01-25_02-03-58.json
+RULER Evaluation completed: seq_len=2048 on precond_deltanet_x1p75

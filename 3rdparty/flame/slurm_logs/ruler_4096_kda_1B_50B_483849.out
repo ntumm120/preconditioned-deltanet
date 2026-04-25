@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/kda_1B_50B...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 86.0% (43/50)
+
+  Needle depth: 25%
+    Accuracy: 92.0% (46/50)
+
+  Needle depth: 50%
+    Accuracy: 96.0% (48/50)
+
+  Needle depth: 75%
+    Accuracy: 100.0% (50/50)
+
+  Needle depth: 100%
+    Accuracy: 66.0% (33/50)
+
+  Overall accuracy at 4096: 88.0%
+
+================================================================================
+RULER Evaluation Results: passkey
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/kda_1B_50B
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    86.0%  |    92.0%  |    96.0%  |   100.0%  |    66.0%  | 88.0%
+--------------------------------------------------------------------------------
+Overall Accuracy: 88.0%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/kda_1B_50B/ruler/ruler_passkey_kda_1B_50B_2026-01-25_02-09-05.json
+RULER Evaluation completed: seq_len=4096 on kda_1B_50B

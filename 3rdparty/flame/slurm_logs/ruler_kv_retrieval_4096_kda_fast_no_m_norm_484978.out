@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_experiments/precond_kda_ablation/fast_no_m_norm...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 30.0% (15/50)
+
+  Needle depth: 25%
+    Accuracy: 22.0% (11/50)
+
+  Needle depth: 50%
+    Accuracy: 22.0% (11/50)
+
+  Needle depth: 75%
+    Accuracy: 50.0% (25/50)
+
+  Needle depth: 100%
+    Accuracy: 54.0% (27/50)
+
+  Overall accuracy at 4096: 35.6%
+
+================================================================================
+RULER Evaluation Results: kv_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_experiments/precond_kda_ablation/fast_no_m_norm
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    30.0%  |    22.0%  |    22.0%  |    50.0%  |    54.0%  | 35.6%
+--------------------------------------------------------------------------------
+Overall Accuracy: 35.6%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/kda_fast_no_m_norm/ruler/ruler_kv_retrieval_fast_no_m_norm_2026-01-25_03-21-57.json
+RULER kv_retrieval evaluation completed: seq_len=4096 on kda_fast_no_m_norm

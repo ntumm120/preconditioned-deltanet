@@ -1,0 +1,3 @@
+Loading model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/kda_1B_50B
+Tasks: ['wikitext', 'lambada_openai', 'arc_easy', 'arc_challenge', 'hellaswag', 'piqa', 'winogrande', 'fda', 'swde', 'squad_completion']
+LM Evaluation completed: all benchmarks on kda_1B_50B

@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/deltanet_baseline_neg_eigval...
+
+============================================================
+Evaluating at sequence length: 2048
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 60.0% (30/50)
+
+  Needle depth: 25%
+    Accuracy: 86.0% (43/50)
+
+  Needle depth: 50%
+    Accuracy: 90.0% (45/50)
+
+  Needle depth: 75%
+    Accuracy: 90.0% (45/50)
+
+  Needle depth: 100%
+    Accuracy: 72.0% (36/50)
+
+  Overall accuracy at 2048: 79.6%
+
+================================================================================
+RULER Evaluation Results: uuid_retrieval
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/deltanet_baseline_neg_eigval
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      2048 |    60.0%  |    86.0%  |    90.0%  |    90.0%  |    72.0%  | 79.6%
+--------------------------------------------------------------------------------
+Overall Accuracy: 79.6%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/deltanet_baseline_neg_eigval/ruler/ruler_uuid_retrieval_deltanet_baseline_neg_eigval_2026-01-25_02-28-25.json
+RULER uuid_retrieval evaluation completed: seq_len=2048 on deltanet_baseline_neg_eigval

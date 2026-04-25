@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_baselines/deltanet_baseline_seq2048_lr4e4...
+
+============================================================
+Evaluating at sequence length: 2048
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 32.0% (16/50)
+
+  Needle depth: 25%
+    Accuracy: 56.0% (28/50)
+
+  Needle depth: 50%
+    Accuracy: 68.0% (34/50)
+
+  Needle depth: 75%
+    Accuracy: 84.0% (42/50)
+
+  Needle depth: 100%
+    Accuracy: 78.0% (39/50)
+
+  Overall accuracy at 2048: 63.6%
+
+================================================================================
+RULER Evaluation Results: kv_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_baselines/deltanet_baseline_seq2048_lr4e4
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      2048 |    32.0%  |    56.0%  |    68.0%  |    84.0%  |    78.0%  | 63.6%
+--------------------------------------------------------------------------------
+Overall Accuracy: 63.6%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/deltanet_baseline_seq2048_lr4e4/ruler/ruler_kv_retrieval_deltanet_baseline_seq2048_lr4e4_2026-01-25_02-28-03.json
+RULER kv_retrieval evaluation completed: seq_len=2048 on deltanet_baseline_seq2048_lr4e4

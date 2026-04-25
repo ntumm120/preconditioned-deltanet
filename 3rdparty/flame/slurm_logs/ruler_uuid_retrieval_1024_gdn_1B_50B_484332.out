@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_baselines/gdn_1B_50B...
+
+============================================================
+Evaluating at sequence length: 1024
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 88.0% (44/50)
+
+  Needle depth: 25%
+    Accuracy: 90.0% (45/50)
+
+  Needle depth: 50%
+    Accuracy: 92.0% (46/50)
+
+  Needle depth: 75%
+    Accuracy: 94.0% (47/50)
+
+  Needle depth: 100%
+    Accuracy: 96.0% (48/50)
+
+  Overall accuracy at 1024: 92.0%
+
+================================================================================
+RULER Evaluation Results: uuid_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_baselines/gdn_1B_50B
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      1024 |    88.0%  |    90.0%  |    92.0%  |    94.0%  |    96.0%  | 92.0%
+--------------------------------------------------------------------------------
+Overall Accuracy: 92.0%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/gdn_1B_50B/ruler/ruler_uuid_retrieval_gdn_1B_50B_2026-01-25_02-27-42.json
+RULER uuid_retrieval evaluation completed: seq_len=1024 on gdn_1B_50B

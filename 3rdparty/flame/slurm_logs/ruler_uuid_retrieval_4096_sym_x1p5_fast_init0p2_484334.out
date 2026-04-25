@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_experiments/log_space_sweep_v2/sym_x1p5_fast_init0p2...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 62.0% (31/50)
+
+  Needle depth: 25%
+    Accuracy: 52.0% (26/50)
+
+  Needle depth: 50%
+    Accuracy: 50.0% (25/50)
+
+  Needle depth: 75%
+    Accuracy: 68.0% (34/50)
+
+  Needle depth: 100%
+    Accuracy: 74.0% (37/50)
+
+  Overall accuracy at 4096: 61.2%
+
+================================================================================
+RULER Evaluation Results: uuid_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_experiments/log_space_sweep_v2/sym_x1p5_fast_init0p2
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    62.0%  |    52.0%  |    50.0%  |    68.0%  |    74.0%  | 61.2%
+--------------------------------------------------------------------------------
+Overall Accuracy: 61.2%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/sym_x1p5_fast_init0p2/ruler/ruler_uuid_retrieval_sym_x1p5_fast_init0p2_2026-01-25_02-33-08.json
+RULER uuid_retrieval evaluation completed: seq_len=4096 on sym_x1p5_fast_init0p2

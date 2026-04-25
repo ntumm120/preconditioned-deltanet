@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/neehal/preconditioned_linear_attention/evals/run_ruler.py", line 632, in <module>
+    main()
+  File "/home/neehal/preconditioned_linear_attention/evals/run_ruler.py", line 598, in main
+    results = run_evaluation(
+              ^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/evals/run_ruler.py", line 346, in run_evaluation
+    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 1141, in from_pretrained
+    tokenizer_class_py, tokenizer_class_fast = TOKENIZER_MAPPING[type(config)]
+                                               ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 804, in __getitem__
+    model_type = self._reverse_config_mapping[key.__name__]
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'PrecondDeltaNetConfig'

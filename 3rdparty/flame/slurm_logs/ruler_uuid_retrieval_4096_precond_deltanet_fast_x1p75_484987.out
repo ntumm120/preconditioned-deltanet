@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/precond_deltanet_x_sweep_v2/fast_x1p75...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 48.0% (24/50)
+
+  Needle depth: 25%
+    Accuracy: 96.0% (48/50)
+
+  Needle depth: 50%
+    Accuracy: 92.0% (46/50)
+
+  Needle depth: 75%
+    Accuracy: 92.0% (46/50)
+
+  Needle depth: 100%
+    Accuracy: 84.0% (42/50)
+
+  Overall accuracy at 4096: 82.4%
+
+================================================================================
+RULER Evaluation Results: uuid_retrieval
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/precond_deltanet_x_sweep_v2/fast_x1p75
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    48.0%  |    96.0%  |    92.0%  |    92.0%  |    84.0%  | 82.4%
+--------------------------------------------------------------------------------
+Overall Accuracy: 82.4%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/precond_deltanet_fast_x1p75/ruler/ruler_uuid_retrieval_fast_x1p75_2026-01-25_03-22-09.json
+RULER uuid_retrieval evaluation completed: seq_len=4096 on precond_deltanet_fast_x1p75

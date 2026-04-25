@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Experiments and results
+exp/
+exp_sanity/
+results/
+wandb/
+slurm_logs/
+slurm_scripts/
+
+# Data
+data/
+*.csv
+*.png
+*.html
+
+# Models
+*.pkl
+*.pt
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Triton cache
+.triton/

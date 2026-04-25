@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_experiments/precond_kda_ablation/fast_no_m_norm...
+
+============================================================
+Evaluating at sequence length: 2048
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 62.0% (31/50)
+
+  Needle depth: 25%
+    Accuracy: 78.0% (39/50)
+
+  Needle depth: 50%
+    Accuracy: 76.0% (38/50)
+
+  Needle depth: 75%
+    Accuracy: 78.0% (39/50)
+
+  Needle depth: 100%
+    Accuracy: 80.0% (40/50)
+
+  Overall accuracy at 2048: 74.8%
+
+================================================================================
+RULER Evaluation Results: uuid_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_experiments/precond_kda_ablation/fast_no_m_norm
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      2048 |    62.0%  |    78.0%  |    76.0%  |    78.0%  |    80.0%  | 74.8%
+--------------------------------------------------------------------------------
+Overall Accuracy: 74.8%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/kda_fast_no_m_norm/ruler/ruler_uuid_retrieval_fast_no_m_norm_2026-01-25_03-18-07.json
+RULER uuid_retrieval evaluation completed: seq_len=2048 on kda_fast_no_m_norm

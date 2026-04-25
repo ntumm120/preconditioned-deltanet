@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/deltanet_baseline_neg_eigval...
+
+============================================================
+Evaluating at sequence length: 2048
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 30.0% (15/50)
+
+  Needle depth: 25%
+    Accuracy: 78.0% (39/50)
+
+  Needle depth: 50%
+    Accuracy: 76.0% (38/50)
+
+  Needle depth: 75%
+    Accuracy: 78.0% (39/50)
+
+  Needle depth: 100%
+    Accuracy: 94.0% (47/50)
+
+  Overall accuracy at 2048: 71.2%
+
+================================================================================
+RULER Evaluation Results: kv_retrieval
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/deltanet_baseline_neg_eigval
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      2048 |    30.0%  |    78.0%  |    76.0%  |    78.0%  |    94.0%  | 71.2%
+--------------------------------------------------------------------------------
+Overall Accuracy: 71.2%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/deltanet_baseline_neg_eigval/ruler/ruler_kv_retrieval_deltanet_baseline_neg_eigval_2026-01-25_02-28-11.json
+RULER kv_retrieval evaluation completed: seq_len=2048 on deltanet_baseline_neg_eigval

@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_experiments/precond_kda_x_sweep/fast_x1p25...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 24.0% (12/50)
+
+  Needle depth: 25%
+    Accuracy: 30.0% (15/50)
+
+  Needle depth: 50%
+    Accuracy: 48.0% (24/50)
+
+  Needle depth: 75%
+    Accuracy: 44.0% (22/50)
+
+  Needle depth: 100%
+    Accuracy: 94.0% (47/50)
+
+  Overall accuracy at 4096: 48.0%
+
+================================================================================
+RULER Evaluation Results: kv_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_experiments/precond_kda_x_sweep/fast_x1p25
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    24.0%  |    30.0%  |    48.0%  |    44.0%  |    94.0%  | 48.0%
+--------------------------------------------------------------------------------
+Overall Accuracy: 48.0%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/precond_kda_fast_x1p25/ruler/ruler_kv_retrieval_fast_x1p25_2026-01-25_02-32-36.json
+RULER kv_retrieval evaluation completed: seq_len=4096 on precond_kda_fast_x1p25

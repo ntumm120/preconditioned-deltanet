@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_baselines/kda_seq2048_lr4e4...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 16.0% (8/50)
+
+  Needle depth: 25%
+    Accuracy: 14.0% (7/50)
+
+  Needle depth: 50%
+    Accuracy: 18.0% (9/50)
+
+  Needle depth: 75%
+    Accuracy: 50.0% (25/50)
+
+  Needle depth: 100%
+    Accuracy: 88.0% (44/50)
+
+  Overall accuracy at 4096: 37.2%
+
+================================================================================
+RULER Evaluation Results: kv_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_baselines/kda_seq2048_lr4e4
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    16.0%  |    14.0%  |    18.0%  |    50.0%  |    88.0%  | 37.2%
+--------------------------------------------------------------------------------
+Overall Accuracy: 37.2%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/kda_seq2048_lr4e4/ruler/ruler_kv_retrieval_kda_seq2048_lr4e4_2026-01-25_02-32-05.json
+RULER kv_retrieval evaluation completed: seq_len=4096 on kda_seq2048_lr4e4

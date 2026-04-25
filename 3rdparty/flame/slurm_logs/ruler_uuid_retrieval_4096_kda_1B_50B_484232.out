@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/kda_1B_50B...
+
+============================================================
+Evaluating at sequence length: 4096
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 94.0% (47/50)
+
+  Needle depth: 25%
+    Accuracy: 100.0% (50/50)
+
+  Needle depth: 50%
+    Accuracy: 100.0% (50/50)
+
+  Needle depth: 75%
+    Accuracy: 100.0% (50/50)
+
+  Needle depth: 100%
+    Accuracy: 100.0% (50/50)
+
+  Overall accuracy at 4096: 98.8%
+
+================================================================================
+RULER Evaluation Results: uuid_retrieval
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/kda_1B_50B
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      4096 |    94.0%  |   100.0%  |   100.0%  |   100.0%  |   100.0%  | 98.8%
+--------------------------------------------------------------------------------
+Overall Accuracy: 98.8%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/kda_1B_50B/ruler/ruler_uuid_retrieval_kda_1B_50B_2026-01-25_02-32-39.json
+RULER uuid_retrieval evaluation completed: seq_len=4096 on kda_1B_50B

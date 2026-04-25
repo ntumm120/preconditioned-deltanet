@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/pla_language_baselines/gdn_1B_50B...
+
+============================================================
+Evaluating at sequence length: 1024
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 86.0% (43/50)
+
+  Needle depth: 25%
+    Accuracy: 90.0% (45/50)
+
+  Needle depth: 50%
+    Accuracy: 90.0% (45/50)
+
+  Needle depth: 75%
+    Accuracy: 92.0% (46/50)
+
+  Needle depth: 100%
+    Accuracy: 94.0% (47/50)
+
+  Overall accuracy at 1024: 90.4%
+
+================================================================================
+RULER Evaluation Results: kv_retrieval
+Model: /home/neehal/preconditioned_linear_attention/pla_language_baselines/gdn_1B_50B
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      1024 |    86.0%  |    90.0%  |    90.0%  |    92.0%  |    94.0%  | 90.4%
+--------------------------------------------------------------------------------
+Overall Accuracy: 90.4%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/gdn_1B_50B/ruler/ruler_kv_retrieval_gdn_1B_50B_2026-01-25_02-27-25.json
+RULER kv_retrieval evaluation completed: seq_len=1024 on gdn_1B_50B

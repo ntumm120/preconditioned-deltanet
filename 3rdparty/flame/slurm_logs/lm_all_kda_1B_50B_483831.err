@@ -1,0 +1,109 @@
+[Task: wikitext] metric word_perplexity is defined, but aggregation is not. using default aggregation=weighted_perplexity
+[Task: wikitext] metric word_perplexity is defined, but higher_is_better is not. using default higher_is_better=False
+[Task: wikitext] metric byte_perplexity is defined, but aggregation is not. using default aggregation=weighted_perplexity
+[Task: wikitext] metric byte_perplexity is defined, but higher_is_better is not. using default higher_is_better=False
+[Task: wikitext] metric bits_per_byte is defined, but aggregation is not. using default aggregation=bits_per_byte
+[Task: wikitext] metric bits_per_byte is defined, but higher_is_better is not. using default higher_is_better=False
+None: No `generation_kwargs` specified in task config, defaulting to {'until': ['\n\n'], 'do_sample': False, 'temperature': 0}
+None: No `generation_kwargs` specified in task config, defaulting to {'until': ['\n\n'], 'do_sample': False, 'temperature': 0}
+None: No `generation_kwargs` specified in task config, defaulting to {'until': ['\n\n'], 'do_sample': False, 'temperature': 0}
+  0%|          | 0/2984 [00:00<?, ?it/s]100%|██████████| 2984/2984 [00:00<00:00, 114816.51it/s]
+  0%|          | 0/1111 [00:00<?, ?it/s]100%|██████████| 1111/1111 [00:00<00:00, 217111.86it/s]
+  0%|          | 0/1102 [00:00<?, ?it/s]100%|██████████| 1102/1102 [00:00<00:00, 215997.15it/s]
+  0%|          | 0/1267 [00:00<?, ?it/s]100%|██████████| 1267/1267 [00:00<00:00, 93449.33it/s]
+  0%|          | 0/1838 [00:00<?, ?it/s]  6%|▋         | 118/1838 [00:00<00:01, 1177.31it/s] 13%|█▎        | 236/1838 [00:00<00:01, 1178.74it/s] 19%|█▉        | 354/1838 [00:00<00:01, 1177.46it/s] 26%|██▌       | 472/1838 [00:00<00:01, 1168.83it/s] 32%|███▏      | 591/1838 [00:00<00:01, 1173.96it/s] 39%|███▊      | 710/1838 [00:00<00:00, 1176.73it/s] 45%|████▌     | 830/1838 [00:00<00:00, 1182.19it/s] 52%|█████▏    | 950/1838 [00:00<00:00, 1185.23it/s] 58%|█████▊    | 1070/1838 [00:00<00:00, 1187.19it/s] 65%|██████▍   | 1190/1838 [00:01<00:00, 1187.61it/s] 71%|███████   | 1309/1838 [00:01<00:00, 1187.03it/s] 78%|███████▊  | 1428/1838 [00:01<00:00, 1187.49it/s] 84%|████████▍ | 1548/1838 [00:01<00:00, 1188.65it/s] 91%|█████████ | 1668/1838 [00:01<00:00, 1189.51it/s] 97%|█████████▋| 1787/1838 [00:01<00:00, 1187.74it/s]100%|██████████| 1838/1838 [00:01<00:00, 1181.88it/s]
+  0%|          | 0/10042 [00:00<?, ?it/s]  3%|▎         | 305/10042 [00:00<00:03, 3034.30it/s]  6%|▌         | 619/10042 [00:00<00:03, 3094.75it/s]  9%|▉         | 929/10042 [00:00<00:02, 3076.44it/s] 12%|█▏        | 1238/10042 [00:00<00:02, 3080.93it/s] 15%|█▌        | 1547/10042 [00:00<00:07, 1180.81it/s] 18%|█▊        | 1847/10042 [00:01<00:05, 1479.65it/s] 21%|██▏       | 2148/10042 [00:01<00:04, 1770.13it/s] 24%|██▍       | 2448/10042 [00:01<00:03, 2032.05it/s] 27%|██▋       | 2751/10042 [00:01<00:03, 2264.59it/s] 30%|███       | 3056/10042 [00:01<00:02, 2461.06it/s] 33%|███▎      | 3359/10042 [00:01<00:02, 2609.24it/s] 36%|███▋      | 3663/10042 [00:01<00:02, 2726.23it/s] 39%|███▉      | 3961/10042 [00:01<00:02, 2795.57it/s] 42%|████▏     | 4259/10042 [00:01<00:02, 2833.55it/s] 45%|████▌     | 4559/10042 [00:01<00:01, 2879.87it/s] 48%|████▊     | 4858/10042 [00:02<00:01, 2909.58it/s] 51%|█████▏    | 5159/10042 [00:02<00:01, 2938.37it/s] 54%|█████▍    | 5461/10042 [00:02<00:01, 2960.73it/s] 57%|█████▋    | 5762/10042 [00:02<00:01, 2974.86it/s] 60%|██████    | 6064/10042 [00:02<00:01, 2986.62it/s] 63%|██████▎   | 6366/10042 [00:02<00:01, 2993.49it/s] 66%|██████▋   | 6670/10042 [00:02<00:01, 3005.69it/s] 69%|██████▉   | 6972/10042 [00:02<00:01, 3008.75it/s] 72%|███████▏  | 7274/10042 [00:02<00:00, 3004.94it/s] 75%|███████▌  | 7575/10042 [00:02<00:00, 3006.22it/s] 78%|███████▊  | 7876/10042 [00:03<00:00, 3003.64it/s] 81%|████████▏ | 8179/10042 [00:03<00:00, 3009.50it/s] 84%|████████▍ | 8481/10042 [00:03<00:00, 3008.55it/s] 87%|████████▋ | 8783/10042 [00:03<00:00, 3010.03it/s] 91%|█████████ | 9089/10042 [00:03<00:00, 3023.16it/s] 94%|█████████▎| 9393/10042 [00:03<00:00, 3028.01it/s] 97%|█████████▋| 9701/10042 [00:03<00:00, 3039.96it/s]100%|█████████▉| 10009/10042 [00:03<00:00, 3051.03it/s]100%|██████████| 10042/10042 [00:03<00:00, 2664.27it/s]
+  0%|          | 0/1172 [00:00<?, ?it/s] 10%|█         | 123/1172 [00:00<00:00, 1223.47it/s] 21%|██        | 248/1172 [00:00<00:00, 1235.01it/s] 32%|███▏      | 373/1172 [00:00<00:00, 1238.57it/s] 42%|████▏     | 497/1172 [00:00<00:00, 1233.69it/s] 53%|█████▎    | 622/1172 [00:00<00:00, 1236.08it/s] 64%|██████▎   | 746/1172 [00:00<00:00, 1237.23it/s] 74%|███████▍  | 871/1172 [00:00<00:00, 1240.12it/s] 85%|████████▍ | 996/1172 [00:00<00:00, 1240.93it/s] 96%|█████████▌| 1121/1172 [00:00<00:00, 1240.51it/s]100%|██████████| 1172/1172 [00:00<00:00, 1238.47it/s]
+  0%|          | 0/2376 [00:00<?, ?it/s]  5%|▌         | 123/2376 [00:00<00:01, 1224.77it/s] 10%|█         | 247/2376 [00:00<00:01, 1232.77it/s] 16%|█▌        | 371/2376 [00:00<00:01, 1235.64it/s] 21%|██        | 496/2376 [00:00<00:01, 1239.23it/s] 26%|██▌       | 622/2376 [00:00<00:01, 1244.47it/s] 31%|███▏      | 747/2376 [00:00<00:01, 1244.76it/s] 37%|███▋      | 873/2376 [00:00<00:01, 1247.26it/s] 42%|████▏     | 998/2376 [00:00<00:01, 1234.10it/s] 47%|████▋     | 1123/2376 [00:00<00:01, 1237.53it/s] 53%|█████▎    | 1248/2376 [00:01<00:00, 1239.25it/s] 58%|█████▊    | 1374/2376 [00:01<00:00, 1243.02it/s] 63%|██████▎   | 1500/2376 [00:01<00:00, 1245.81it/s] 68%|██████▊   | 1626/2376 [00:01<00:00, 1247.89it/s] 74%|███████▎  | 1751/2376 [00:01<00:00, 1248.40it/s] 79%|███████▉  | 1876/2376 [00:01<00:00, 1225.49it/s] 84%|████████▍ | 2002/2376 [00:01<00:00, 1233.67it/s] 90%|████████▉ | 2128/2376 [00:01<00:00, 1241.00it/s] 95%|█████████▍| 2253/2376 [00:01<00:00, 1242.51it/s]100%|██████████| 2376/2376 [00:01<00:00, 1240.95it/s]
+  0%|          | 0/5153 [00:00<?, ?it/s]  1%|          | 58/5153 [00:00<00:08, 574.30it/s]  2%|▏         | 118/5153 [00:00<00:08, 584.21it/s]  3%|▎         | 178/5153 [00:00<00:08, 588.18it/s]  5%|▍         | 237/5153 [00:00<00:08, 587.68it/s]  6%|▌         | 297/5153 [00:00<00:08, 588.86it/s]  7%|▋         | 357/5153 [00:00<00:08, 589.51it/s]  8%|▊         | 417/5153 [00:00<00:08, 590.55it/s]  9%|▉         | 477/5153 [00:00<00:07, 590.46it/s] 10%|█         | 537/5153 [00:00<00:07, 591.29it/s] 12%|█▏        | 597/5153 [00:01<00:07, 591.05it/s] 13%|█▎        | 657/5153 [00:01<00:07, 591.30it/s] 14%|█▍        | 717/5153 [00:01<00:07, 590.76it/s] 15%|█▌        | 777/5153 [00:01<00:07, 590.68it/s] 16%|█▌        | 837/5153 [00:01<00:07, 590.74it/s] 17%|█▋        | 897/5153 [00:01<00:07, 590.24it/s] 19%|█▊        | 957/5153 [00:01<00:07, 591.03it/s] 20%|█▉        | 1017/5153 [00:01<00:07, 590.12it/s] 21%|██        | 1077/5153 [00:01<00:06, 588.33it/s] 22%|██▏       | 1136/5153 [00:01<00:06, 587.74it/s] 23%|██▎       | 1195/5153 [00:02<00:06, 587.26it/s] 24%|██▍       | 1254/5153 [00:02<00:06, 587.78it/s] 25%|██▌       | 1313/5153 [00:02<00:06, 587.90it/s] 27%|██▋       | 1372/5153 [00:02<00:06, 586.96it/s] 28%|██▊       | 1431/5153 [00:02<00:06, 587.05it/s] 29%|██▉       | 1490/5153 [00:02<00:06, 587.54it/s] 30%|███       | 1549/5153 [00:02<00:06, 587.69it/s] 31%|███       | 1608/5153 [00:02<00:06, 587.88it/s] 32%|███▏      | 1667/5153 [00:02<00:05, 588.46it/s] 34%|███▎      | 1727/5153 [00:02<00:05, 589.23it/s] 35%|███▍      | 1786/5153 [00:03<00:05, 589.13it/s] 36%|███▌      | 1845/5153 [00:03<00:05, 589.20it/s] 37%|███▋      | 1905/5153 [00:03<00:05, 589.56it/s] 38%|███▊      | 1965/5153 [00:03<00:05, 590.39it/s] 39%|███▉      | 2025/5153 [00:03<00:05, 589.53it/s] 40%|████      | 2084/5153 [00:03<00:05, 589.62it/s] 42%|████▏     | 2143/5153 [00:03<00:05, 589.62it/s] 43%|████▎     | 2202/5153 [00:03<00:05, 589.55it/s] 44%|████▍     | 2262/5153 [00:03<00:04, 589.94it/s] 45%|████▌     | 2322/5153 [00:03<00:04, 590.96it/s] 46%|████▌     | 2382/5153 [00:04<00:04, 591.68it/s] 47%|████▋     | 2442/5153 [00:04<00:04, 591.96it/s] 49%|████▊     | 2502/5153 [00:04<00:04, 591.39it/s] 50%|████▉     | 2562/5153 [00:04<00:04, 591.42it/s] 51%|█████     | 2622/5153 [00:04<00:04, 591.33it/s] 52%|█████▏    | 2682/5153 [00:04<00:04, 591.79it/s] 53%|█████▎    | 2742/5153 [00:04<00:04, 591.62it/s] 54%|█████▍    | 2802/5153 [00:04<00:03, 589.79it/s] 56%|█████▌    | 2861/5153 [00:04<00:03, 589.38it/s] 57%|█████▋    | 2920/5153 [00:04<00:03, 588.56it/s] 58%|█████▊    | 2979/5153 [00:05<00:03, 588.02it/s] 59%|█████▉    | 3038/5153 [00:05<00:03, 588.32it/s] 60%|██████    | 3097/5153 [00:05<00:03, 588.43it/s] 62%|██████▏   | 3185/5153 [00:05<00:02, 674.51it/s] 64%|██████▍   | 3297/5153 [00:05<00:02, 805.57it/s] 66%|██████▌   | 3409/5153 [00:05<00:01, 899.11it/s] 68%|██████▊   | 3522/5153 [00:05<00:01, 966.58it/s] 70%|███████   | 3631/5153 [00:05<00:01, 1001.00it/s] 73%|███████▎  | 3740/5153 [00:05<00:01, 1025.72it/s] 75%|███████▍  | 3843/5153 [00:05<00:01, 1004.51it/s] 77%|███████▋  | 3944/5153 [00:06<00:01, 973.37it/s]  79%|███████▊  | 4054/5153 [00:06<00:01, 1008.13it/s] 81%|████████  | 4165/5153 [00:06<00:00, 1036.15it/s] 83%|████████▎ | 4274/5153 [00:06<00:00, 1051.37it/s] 85%|████████▌ | 4382/5153 [00:06<00:00, 1058.49it/s] 87%|████████▋ | 4495/5153 [00:06<00:00, 1078.12it/s] 89%|████████▉ | 4604/5153 [00:06<00:00, 1078.80it/s] 92%|█████████▏| 4717/5153 [00:06<00:00, 1091.23it/s] 94%|█████████▎| 4827/5153 [00:06<00:00, 1091.12it/s] 96%|█████████▌| 4938/5153 [00:06<00:00, 1095.44it/s] 98%|█████████▊| 5048/5153 [00:07<00:00, 1091.20it/s]100%|██████████| 5153/5153 [00:07<00:00, 717.83it/s] 
+  0%|          | 0/62 [00:00<?, ?it/s]100%|██████████| 62/62 [00:00<00:00, 1019.28it/s]
+Running generate_until requests:   0%|          | 0/5197 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/neehal/preconditioned_linear_attention/evals/run_standard_eval.py", line 198, in <module>
+    main()
+  File "/home/neehal/preconditioned_linear_attention/evals/run_standard_eval.py", line 161, in main
+    results = run_eval(args.model_path, tasks, args.batch_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/evals/run_standard_eval.py", line 51, in run_eval
+    results = evaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/lm_eval/utils.py", line 458, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/lm_eval/evaluator.py", line 357, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/lm_eval/utils.py", line 458, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/lm_eval/evaluator.py", line 585, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/lm_eval/models/huggingface.py", line 1463, in generate_until
+    cont = self._model_generate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/lm_eval/models/huggingface.py", line 996, in _model_generate
+    return self.model.generate(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/3rdparty/flash-linear-attention/fla/models/kda/modeling_kda.py", line 311, in generate
+    return super().generate(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/transformers/generation/utils.py", line 2539, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/transformers/generation/utils.py", line 2870, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/3rdparty/flash-linear-attention/fla/models/kda/modeling_kda.py", line 345, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/3rdparty/flash-linear-attention/fla/models/kda/modeling_kda.py", line 249, in forward
+    hidden_states, attentions, past_key_values = layer(
+                                                 ^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/3rdparty/flash-linear-attention/fla/models/kda/modeling_kda.py", line 88, in forward
+    hidden_states, attentions, past_key_values = self.attn(
+                                                 ^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/miniconda3/envs/pla/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/3rdparty/flash-linear-attention/fla/layers/kda.py", line 189, in forward
+    indices, cu_seqlens, _ = get_unpad_data(attention_mask[:, -q_len:])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/3rdparty/flash-linear-attention/fla/utils.py", line 130, in wrapper
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/neehal/preconditioned_linear_attention/3rdparty/flash-linear-attention/fla/layers/utils.py", line 93, in get_unpad_data
+    indices = torch.nonzero(attention_mask.flatten(), as_tuple=False).flatten()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Running generate_until requests:   0%|          | 0/5197 [01:44<?, ?it/s]

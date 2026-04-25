@@ -1,0 +1,35 @@
+Loading model from /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/precond_deltanet_x_sweep_v2/fast_x1p75...
+
+============================================================
+Evaluating at sequence length: 1024
+============================================================
+
+  Needle depth: 0%
+    Accuracy: 32.0% (16/50)
+
+  Needle depth: 25%
+    Accuracy: 78.0% (39/50)
+
+  Needle depth: 50%
+    Accuracy: 76.0% (38/50)
+
+  Needle depth: 75%
+    Accuracy: 90.0% (45/50)
+
+  Needle depth: 100%
+    Accuracy: 76.0% (38/50)
+
+  Overall accuracy at 1024: 70.4%
+
+================================================================================
+RULER Evaluation Results: kv_retrieval
+Model: /home/neehal/preconditioned_linear_attention/3rdparty/flame/exp/precond_deltanet_x_sweep_v2/fast_x1p75
+================================================================================
+Seq Length | Depth 0% | Depth 25% | Depth 50% | Depth 75% | Depth 100% | Overall
+--------------------------------------------------------------------------------
+      1024 |    32.0%  |    78.0%  |    76.0%  |    90.0%  |    76.0%  | 70.4%
+--------------------------------------------------------------------------------
+Overall Accuracy: 70.4%
+
+Results saved to: /home/neehal/preconditioned_linear_attention/evals/results/precond_deltanet_fast_x1p75/ruler/ruler_kv_retrieval_fast_x1p75_2026-01-25_02-27-44.json
+RULER kv_retrieval evaluation completed: seq_len=1024 on precond_deltanet_fast_x1p75
